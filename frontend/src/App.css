@@ -1,0 +1,170 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+.container-login {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center; 
+  height: 90vh;
+
+
+}
+
+.centrar {
+  display: grid;
+  text-align: center;
+  place-items: center; 
+}
+
+
+.error {
+  padding: 10px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.container-registro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center; 
+  height: 90vh;
+
+}
+
+.formulario-especial button {
+  width: 100%; /* Ocupa todo el ancho disponible para asegurarse de que esté centrado */
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px;
+}
+
+.formulario-especial{
+  padding: 70px;
+  border: 1px solid rgb(50, 50, 60) ;
+  border-radius: 3px;
+}
+
+.container-navbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px;
+}
+.title {
+  color: white;
+  font-size: 18px;
+}
+.Nav_Button {
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  align-items: center;
+}
+.bottons {
+  display: flex;
+ gap: 7px;
+
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  height: 20px;
+  align-items: center;
+  border: 2px solid rgb(20, 5, 44);
+  border-radius: 40px;
+  width: 370px;
+  height: 40px;
+  
+}
+
+.total {
+  justify-content: end;
+  text-align: end;
+}
+
+.header {
+  background-image: url("./assets/imgs/Header.jpg");
+  background-color: rgb(100, 100, 100);
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  object-fit: cover;
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: aliceblue;
+}
+.line-header {
+  width: 60%;
+  margin: 0.5rem auto; /* Centra la línea horizontalmente */
+  border-bottom: 2px solid white; /* Aquí defines el color y grosor de la línea */
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 10px;
+  transform: scale(1);
+  transition: all 0.9s linear;
+}

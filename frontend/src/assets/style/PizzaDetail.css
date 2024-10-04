@@ -1,0 +1,58 @@
+/* PizzaDetail.css */
+
+.pizza-detail {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .pizza-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .pizza-price {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #e53e3e; /* Color rojo para el precio */
+  }
+  
+  .pizza-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .pizza-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .pizza-ingredients {
+    text-align: left;
+  }
+  
+  .pizza-ingredients h4 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .pizza-ingredients ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pizza-ingredients li {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 5px;
+  }
+  
